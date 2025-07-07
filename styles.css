@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Garamond', serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 { 
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+footer {
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.orange-text {
+    color: #ff6233;
+}
+
+.job-title, .degree {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    max-width: 50vw;
+    position: relative;
+    left: 5rem;
+}
+
+li {
+    margin-bottom: 0.4em;
+    display: flex;
+    flex-wrap: nowrap;
+    color: black;
+}
+
+li::before {
+    content: "♦ ";
+    margin-right: 0.5rem;
+}
+
+p.location, p.date {
+    color: gray;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6233;
+    border: 2px solid #ff6233;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: white;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+a:hover {
+    background-color: #ff6233;
+    color: white;
+}
+
+footer p {
+    margin-top: 1.5rem;
+}
+
+ul li:last-child {
+    margin-bottom: 1.25rem;
+}
+
+ul li:first-child {
+    margin-top: 0.5rem;
+}
+
+section {
+    background-color: rgb(247, 245, 245);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+header, footer {
+    margin: 1.5rem;
+}
