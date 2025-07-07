@@ -24,6 +24,7 @@ h1 {
     font-size: 3rem;
     margin-top: 2rem;
     padding-bottom: 1rem;
+    text-shadow: 2px 2px 2px rgb(192, 185, 185);
 }
 
 h2 {
@@ -35,6 +36,7 @@ h3 {
 }
 
 p {
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
@@ -61,7 +63,7 @@ footer {
 
 ul {
     list-style: none;
-    max-width: 50vw;
+    max-width: 40vw;
     position: relative;
     left: 5rem;
 }
@@ -119,8 +121,15 @@ section {
 }
 
 .container {
-    max-width: 60vw;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+    padding: 1rem;
+    }
 }
 
 header, footer {
